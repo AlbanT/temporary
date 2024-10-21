@@ -1,0 +1,58 @@
+M122
+SENDING:M122
+        X    Y    Z    E
+Address        0    0    0    0
+Enabled        false    false    false    false
+Set current    800    800    1600    800
+RMS current    1436    1436    1546    1436
+MAX current    2025    2025    2180    2025
+Run current    25/31    25/31    27/31    25/31
+Hold current    12/31    12/31    13/31    12/31
+CS actual    0/31    0/31    0/31    0/31
+PWM scale
+vsense        0=.325    0=.325    0=.325    0=.325
+stealthChop    false    false    false    false
+msteps        256    256    256    256
+interp        false    false    false    false
+tstep        0    0    0    0
+PWM thresh.
+[mm/s]
+OT prewarn    false    false    false    false
+triggered
+ OTP        false    false    false    false
+pwm scale sum    0    0    0    0
+pwm scale auto    0    0    0    0
+pwm offset auto    0    0    0    0
+pwm grad auto    0    0    0    0
+off time    0    0    0    0
+blank time    16    16    16    16
+hysteresis
+ -end        -3    -3    -3    -3
+ -start        1    1    1    1
+Stallguard thrs    100    100    0    0
+uStep count    0    0    0    0
+DRVSTATUS    X    Y    Z    E
+sg_result    0    0    0    0
+stst        *    *    *    *
+olb
+ola
+s2gb
+s2ga
+otpw
+ot
+157C
+150C
+143C
+120C
+s2vsa
+s2vsb
+Driver registers:
+        X    0x00:00:00:00     Bad response!
+        Y    0x00:00:00:00     Bad response!
+        Z    0x00:00:00:00     Bad response!
+        E    0x00:00:00:00     Bad response!
+Testing X connection... Error: All LOW
+Testing Y connection... Error: All LOW
+Testing Z connection... Error: All LOW
+Testing E connection... Error: All LOW
+//action:notification TMC CONNECTION ERROR
